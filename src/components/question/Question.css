@@ -1,0 +1,36 @@
+/* Container principal da questão */
+.question {
+  padding: 20px;
+  margin: 20px auto;
+  border: 1px solid #bccadb;
+  border-radius: 8px;
+  max-width: 600px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para o texto da pergunta */
+.question h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Estilo para os botões de opção */
+.option-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.option-button:hover {
+  background-color: #f0f0f0;
+}
+
+
